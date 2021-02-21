@@ -1,0 +1,205 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;
+}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+    margin: 0px;
+}
+
+ul {
+list-style-type: none;
+overflow: hidden;
+background-color: darkblue;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+    z-index: 100;
+}
+li {
+float: left;
+    width: 25%;
+    font-family: Constantia;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: white;
+}
+li a:active {
+    color: aqua;
+}
+body {
+    background-image:url(Fondodelapagina.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: #464646;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: monospace;
+    padding-top: 80px;
+}
+
+}
+h2 { 
+color:aliceblue;
+    text-align: center;
+}
+#PrimerCuadro {
+    text-align: center;
+    color: antiquewhite;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+}
+  
+#SegundoCuadro {
+    padding-top: 1px;
+    display: block;
+    margin: auto;
+     padding-bottom: 2px;
+      width: 50%;
+    float: left;
+   min-width: 483px;
+}
+#Foto{
+    width: 100%;
+  height: auto;
+       min-width: 483px;
+    
+}
+
+
+#TercerCuadro{
+    display: block;
+    text-align: justify;
+    margin: auto;
+    color: antiquewhite;
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+     min-width: 483px;
+    text-shadow: 2px 2px 2px black;
+    font-size: calc(0.4rem + 1.8vw);
+}
+#CuartoCuadro {
+    padding-top: 1px;
+    display: block;
+    margin: auto;
+     padding-bottom: 2px;
+      width: 50%;
+   min-width: 483px;
+    float: right;
+    
+
+        
+}
+#Foto1{
+    width: 100%;
+  height: auto;
+   min-width: 483px;
+}
+
+
+#QuintoCuadro{
+    display: block;
+    text-align: justify;
+    margin: auto;
+    color: antiquewhite;
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+     height: auto;
+    font-size: calc(0.4rem + 1.8vw);
+   min-width: 483px;
+    text-shadow: 2px 2px 2px black;
+}
+    
+#SextoCuadro{
+    padding-top: 700px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+   max-width: 100%;
+     padding-bottom: 2px;
+    color: black;
+    min-width: 483px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+#foto2{
+    width:100%;
+    height: auto;
+    min-width: 483px;
+}
+
+  #boton {
+    display: block;
+    height: auto;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 200px;
+	border:none;
+	margin:auto;
+	text-align: center;
+text-shadow: 0px 0px 0px black;
+    
+}  
+#boton a{
+    color: black;
+    
+}
+#boton a:active{
+color:aqua;
+}
+footer {
+    position: absolute;
+    width: 100%;
+  background-color: purple;
+    
+  color: white;
+  text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+     max-width: 100%;
+  height: auto;
+    
+}
+#ContenedorImagen {
+   position: absolute;
+    right:20px;
+    bottom: 15px;
+     max-width: 100%;
+    width: 130px;
+  height: auto;
+}
+#ImagenFooter {
+    max-width: 100%;
+  height: auto;  
+    
+}
