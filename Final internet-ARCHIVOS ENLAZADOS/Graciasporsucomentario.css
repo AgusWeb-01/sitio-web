@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+#gracias {
+    border: solid;
+    border-color: darkblue; 
+     width: 405px;
+	height: 210px;
+	margin:auto;
+    background-color: antiquewhite;
+}
+#regresar {
+    width: 175px;
+	height: 30px;
+	background: #d3e11d;
+	border:none;
+	margin:auto;
+	
+	position: absolute;
+	right: 0;
+	left: 0;
+    text-decoration: none;
+	
+	color:gray;
+}
+#regresar:hover {
+    background-color: gray;
+    color: yellow;
+}
+#regresar:active {
+    color: aqua;
+}
+

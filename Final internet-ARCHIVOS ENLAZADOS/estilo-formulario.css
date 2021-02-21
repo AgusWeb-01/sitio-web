@@ -1,0 +1,202 @@
+col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+    margin: 0px;
+
+}
+
+ul {
+list-style-type: none;
+overflow: hidden;
+background-color: darkblue;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+    z-index: 100;
+}
+li {
+float: left;
+    width: 25%;
+    font-family: Constantia;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: antiquewhite;
+    color:black; }
+li a:active {
+    color: aqua;
+}
+   
+h1 { 
+    text-align: center;
+     
+    
+}
+body {
+    padding-top: 80px;
+    font-family: monospace;
+ 
+}
+
+/*Estilos formulario*/
+#textoContacto {
+	width: 500px;
+	position: static;
+}
+
+#textoContacto h3 {
+	font-size: 3.5em;
+	font-family: Helvetica, arial;
+	font-weight: 100;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	
+	color:#d3e11d;
+	
+	position: absolute;
+	top: 200px;
+	left: -80px;
+}
+#formulario {
+    width:435px;
+    margin:auto;
+
+    font-family: Helvetica, Verdana, Geneva, sans-serif;
+    font-size: .8em;
+    
+    padding:50px;
+    
+    padding-bottom: 120px;
+    position: relative;
+    background-color: rgba(0,0,0,.6);
+    
+}
+#formulario label{
+	display: block;
+	float:left;
+	width:335px;
+    font-weight:bold;
+    font-size:15px;
+    
+    padding-top:2px;
+    padding-bottom:2px;
+    text-align: center;
+    background-color: paleturquoise;
+    position: relative;
+}
+
+
+
+#formulario input{
+	display: block;
+	float:left;
+	width:335px;
+	margin-bottom: 7px;
+}
+
+#formulario textarea{
+	display: block;
+	float:left;
+	width:335px;
+	height: 200px;
+	margin-bottom: 4px;
+    font-family: inherit;
+	
+	resize: none;
+}
+
+#botonAcceder{
+	width: 175px;
+	height: 30px;
+	background: #d3e11d;
+	border:none;
+	margin:auto;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 10px;
+	padding-top: 6px;
+	color:#535353;
+    
+
+}
+
+#botonAcceder:hover{
+	background: #535353;
+	color:#d3e11d;
+}
+#botonAcceder:active {
+    color: aqua;
+}
+
+#formulario #aster {
+	color:#ff0000;
+
+}
+
+#textoContacto {
+	color:#535353;
+
+}
+
+#mapa {
+    outline: 2px solid darkblue;
+    margin: 5px auto;
+    width: 435px;
+    height: 400px;
+}
+#mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+footer {
+    position: absolute;
+    width: 100%;
+  background-color: purple;
+    
+  color: white;
+  text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+     max-width: 100%;
+  height: auto;
+    
+}
+#ContenedorImagen {
+   position: absolute;
+    right:20px;
+    bottom: 15px;
+     max-width: 100%;
+    width: 130px;
+  height: auto;
+}
+#ImagenFooter {
+    max-width: 100%;
+  height: auto;  
+    
+}
+
+
